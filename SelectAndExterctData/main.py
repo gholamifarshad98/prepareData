@@ -2,7 +2,7 @@ import os
 import json
 import cv2
 
-
+# exract frames rom a video frome inital frame number by extract_step frame.
 def extract_data(video_path, initial_frame_number, extract_step):
     initial_frame = int(initial_frame_number)
     result_dir = os.path.splitext(video_path)[0]
